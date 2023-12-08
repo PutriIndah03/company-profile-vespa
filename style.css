@@ -1,6 +1,6 @@
 .banner {
     height: 100vh;
-    background: url('../Vespa/img/banner.jpg');
+    background: url('./img/banner.jpg');
     background-size: 100%;
     padding-top: 20%;
     padding-bottom: 20%;
