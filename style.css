@@ -1,24 +1,23 @@
 .banner {
-    height: 100vh;
-    background: url('./img/banner.jpg');
-    background-size: 100%;
-    padding-top: 20%;
-    padding-bottom: 20%;
-    color: #fff;
-	position: relative;
-	display: flex;
-  }
-  
-  .lingkaran {
-    display: inline-block;
-    border-radius: 50%;
-    width: 150px;
-    margin: auto;
-    height: 150px;
-    color: #fff;
-    background-color: #dc3545;
-  }
-  
+  height: 100vh;
+  color: #fff;
+  position: relative;
+  display: flex;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item {
+  height: 100%;
+}
+
+.carousel-item img {
+  max-height: 600px; /* Adjust this value based on your requirements */
+  width: auto;
+  margin: auto; /* Center the image */
+}
   .lingkaran i {
     position: relative;
     top: 30px;
@@ -55,6 +54,10 @@
     padding-bottom: 20%;
     padding-top: 20%;
     color: #fff;
+  }
+  .map-container {
+    width: 300%;
+    height: 100px; /* Adjust the height as needed */
   }
   
   
